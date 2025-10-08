@@ -5,8 +5,8 @@ import dotenv from 'dotenv';
 import fs from 'fs';
 import path from 'path';
 import chalk from 'chalk';
-import { errorHandler } from "./src/lib/utilies.js";
-import resourceRouter from "./src/routes/resource.js";
+import { errorHandler } from "./src/backend/lib/utilies.js";
+import resourceRouter from "./src/backend/routes/resource.js";
 dotenv.config();
 const PORT = process.env.PORT || 3333;
 
